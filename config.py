@@ -19,6 +19,6 @@ DB_URL = os.environ.get("DB_URL","mongodb+srv://dapita1597:0irZBo8nAyTn9pdu@clus
 
 FLOOD = int(os.environ.get("FLOOD", "90"))
 LAZY_PIC = os.environ.get("LAZY_PIC", "https://telegra.ph/file/114c280222bd5826202b1.jpg")
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1989750989').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6506664860').split()]
 PORT = os.environ.get('PORT', '8080')
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002146552264"))

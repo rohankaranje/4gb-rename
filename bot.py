@@ -3,7 +3,7 @@ from pyrogram import Client, compose,idle
 import os
 from aiohttp import web
 from route import web_server
-from config import *
+from config import TOKEN_ONE, API_HASH, API_ID, STRING 
 from plugins.cb_data import app as Client2
 
 bot = Client(
@@ -29,4 +29,17 @@ if STRING:
 
 else:
     bot.run()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
